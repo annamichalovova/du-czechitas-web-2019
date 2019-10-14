@@ -1,0 +1,13 @@
+h1 {
+    font-size: 2rem;
+    font-family: 'Mansalva', cursive;
+    font-style: italic;
+    color: #c51499;
+    line-height: normal;
+}
+
+p {
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: inherit;
+}
