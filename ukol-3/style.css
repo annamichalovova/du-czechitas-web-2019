@@ -11,3 +11,33 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     line-height: inherit;
 }
+
+P:first-letter {
+    line-height: 0.8;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #c51499;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-family: 'Mansalva', cursive;
+    font-style: italic;
+
+}
+
+a:hover {
+    color: white;
+    background: #c51499;
+}
+
+footer {
+    background: #d46ebb;
+
+}
+
+footer li {
+    list-style-type: none;
+}
