@@ -1,0 +1,108 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #bdc3c7;
+}
+
+.profil {
+    width: 250px;
+    background: #31363b;
+    box-shadow: black 4px 6px 20px;
+
+}
+
+/* header*/
+
+.foto {
+    width: 100%;
+}
+
+.logo {
+    border-radius: 25px;
+    background: #b92e81;
+    position: absolute;
+    top: 150px;
+    left: 190px;
+    box-shadow: black 4px 6px 20px;
+}
+
+.jmeno {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 20px;
+    margin: 20px 20px 20px 20px;
+}
+
+/* body*/
+
+p {
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    margin: 20px 20px 20px 20px;
+}
+
+.odkazy {
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+/* buttons*/
+
+ul .portfolio {
+    display: inline-block;
+    width: 100%;
+    outline: none;
+    background-color: #31363b;
+    border: 1px solid#3f464d;
+    padding: 15px 15px;
+    text-align: center;
+
+}
+
+ul .facebook,
+ul .twitter {
+    background-color: #31363b;
+    display: inline-block;
+    width: 50%;
+    margin: 0px;
+    border: 1px solid#3f464d;
+    cursor: pointer;
+    padding: 15px 15px;
+    text-align: center;
+
+}
+
+.odkazy a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+/* press buttons*/
+
+.portfolio:hover {
+    background-color: #e74c3c;
+}
+
+.facebook:hover {
+    background-color: #3b5998;
+}
+
+.twitter:hover {
+    background-color: #1da1f2
+}
