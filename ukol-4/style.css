@@ -26,7 +26,7 @@ body {
 }
 
 .logo {
-    border-radius: 25px;
+    border-radius: 50%;
     background: #b92e81;
     position: absolute;
     top: 150px;
@@ -37,7 +37,7 @@ body {
 .jmeno {
     font-family: 'Montserrat', sans-serif;
     color: white;
-    font-size: 20px;
+    font-size: 1rem;
     margin: 20px 20px 20px 20px;
 }
 
@@ -46,7 +46,7 @@ body {
 p {
     color: white;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 16px;
+    font-size: 0.75rem;
     margin: 20px 20px 20px 20px;
 }
 
@@ -59,7 +59,7 @@ p {
 
 /* buttons*/
 
-ul .portfolio {
+.portfolio {
     display: inline-block;
     width: 100%;
     outline: none;
@@ -70,8 +70,8 @@ ul .portfolio {
 
 }
 
-ul .facebook,
-ul .twitter {
+.facebook,
+.twitter {
     background-color: #31363b;
     display: inline-block;
     width: 50%;
@@ -86,7 +86,7 @@ ul .twitter {
 .odkazy a {
     text-decoration: none;
     color: white;
-    font-size: 14px;
+    font-size: 0.7rem;
     text-transform: uppercase;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
