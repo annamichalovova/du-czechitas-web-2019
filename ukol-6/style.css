@@ -42,7 +42,6 @@ body {
 /* ----- zde začni psát vlastní CSS ----- */
 
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -102,6 +101,7 @@ header {
 
 .phone {
     position: absolute;
-    right: 0;
     bottom: 0;
+    right: 0;
+    
 }
