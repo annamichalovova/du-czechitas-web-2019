@@ -60,12 +60,10 @@ p {
 /* buttons*/
 
 .portfolio {
-    display: inline-block;
     width: 100%;
     outline: none;
     background-color: #31363b;
     border: 1px solid#3f464d;
-    padding: 15px 15px;
     text-align: center;
 
 }
@@ -73,12 +71,10 @@ p {
 .facebook,
 .twitter {
     background-color: #31363b;
-    display: inline-block;
     width: 50%;
     margin: 0px;
     border: 1px solid#3f464d;
     cursor: pointer;
-    padding: 15px 15px;
     text-align: center;
 
 }
@@ -91,6 +87,8 @@ p {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+    padding: 15px;
+    display: block;
 }
 
 /* press buttons*/
@@ -99,7 +97,7 @@ p {
     background-color: #e74c3c;
 }
 
-.facebook:hover {
+.facebook a:hover {
     background-color: #3b5998;
 }
 
