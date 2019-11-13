@@ -46,8 +46,18 @@ body {
     padding: 0;
 }
 
-li,
+
 a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 0.75rem;
+    color: black;
+    text-decoration: none;
+
+
+}
+
+li {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 0.75rem;
@@ -82,7 +92,7 @@ a {
 }
 
 .items li a:hover {
-    color: pink;
+    color: #25133d;
 }
 
 .logo a {
@@ -96,6 +106,8 @@ a {
 .background-page {
 
     max-width: 100%;
+    background-size: contain, cover;
+    height: auto;
 
 
 }
@@ -109,4 +121,111 @@ a {
 
 .main-background {
     position: relative;
+
+}
+
+.main-title {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    font-size: 4rem;
+    background-size: contain, cover;
+    color: white;
+    font-weight: 400;
+}
+
+.second-title {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    font-size: 1.5rem;
+    background-size: contain, cover;
+    color: white;
+    font-weight: 300;
+
+}
+
+.button {
+    position: absolute;
+    top: 65%;
+    left: 10%;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    background-color: #48418e;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+
+}
+
+
+.button:hover {
+    background-color: #47418e00;
+}
+
+.button2 {
+    position: absolute;
+    top: 65%;
+    left: 35%;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    background-color: #47418e00;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+
+}
+
+
+.button2:hover {
+    background-color: #47418e00;
+}
+
+
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-content: center;
+
+}
+
+.boxes img {
+    max-width: 10%;
+
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.card {
+    flex: 0 0 200px;
+    margin: 10px;
+
+}
+
+.card img {
+    max-width: 50%;
+}
+
+.card .text {
+    padding: 0 20px 20px;
 }
