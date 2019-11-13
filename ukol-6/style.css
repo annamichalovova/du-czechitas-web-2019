@@ -57,7 +57,7 @@ a {
 
 }
 
-header {
+.header {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -93,9 +93,10 @@ header {
 
 }
 
-.main-background {
-    position: relative;
+.background-page {
+
     max-width: 100%;
+
 
 }
 
@@ -103,5 +104,9 @@ header {
     position: absolute;
     bottom: 0;
     right: 0;
-    
+
+}
+
+.main-background {
+    position: relative;
 }
