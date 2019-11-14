@@ -107,7 +107,7 @@ li {
 
     max-width: 100%;
     background-size: contain, cover;
-    height: auto;
+
 
 
 }
@@ -119,7 +119,7 @@ li {
 
 }
 
-.main-background {
+.body {
     position: relative;
 
 }
@@ -228,4 +228,20 @@ li {
 
 .card .text {
     padding: 0 20px 20px;
+}
+
+
+article {
+    text-align: center;
+    ;
+}
+
+.text-footer {
+    color: #e5e5e5;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 300;
+    background-color: #48418e;
+    text-align: center;
+    font-size: 0.75rem;
+
 }
