@@ -105,10 +105,8 @@ a {
 
 .background-page {
 
-    width: 100%;
-    height: auto;
-
-
+    max-width: 100%;
+    position: relative;
 
 }
 
@@ -116,6 +114,7 @@ a {
     position: absolute;
     bottom: 0;
     right: 0;
+    top: 140px;
 
 
 }
