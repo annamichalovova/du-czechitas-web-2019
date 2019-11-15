@@ -57,7 +57,7 @@ a {
 
 }
 
-li {
+.items li {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 0.75rem;
@@ -105,8 +105,8 @@ li {
 
 .background-page {
 
-    max-width: 100%;
-    background-size: contain, cover;
+    width: 100%;
+    height: auto;
 
 
 
@@ -116,6 +116,7 @@ li {
     position: absolute;
     bottom: 0;
     right: 0;
+
 
 }
 
@@ -202,6 +203,8 @@ li {
     justify-content: space-around;
     flex-wrap: nowrap;
     align-content: center;
+    margin: 0;
+    padding: 0;
 
 }
 
@@ -212,18 +215,20 @@ li {
 
 .cards {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: center;
+    justify-content: space-around;
 }
 
 .card {
     flex: 0 0 200px;
     margin: 10px;
 
+
 }
 
 .card img {
-    max-width: 50%;
+    max-width: 30%;
 }
 
 .card .text {
@@ -233,6 +238,7 @@ li {
 
 article {
     text-align: center;
+    font-size: 0.75rem;
     ;
 }
 
@@ -243,5 +249,12 @@ article {
     background-color: #48418e;
     text-align: center;
     font-size: 0.75rem;
+
+}
+
+.title-card {
+    color: #48418e;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
 
 }
