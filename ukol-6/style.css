@@ -218,28 +218,30 @@ a {
     flex-wrap: nowrap;
     align-items: center;
     justify-content: space-around;
+
 }
 
 .card {
     flex: 0 0 200px;
     margin: 10px;
+    margin-top: 20px;
 
 
 }
 
 .card img {
     max-width: 30%;
+    margin-top: 20px;
+
 }
 
-.card .text {
-    padding: 0 20px 20px;
-}
 
 
 article {
     text-align: center;
     font-size: 0.75rem;
-    ;
+
+
 }
 
 .text-footer {
@@ -256,5 +258,10 @@ article {
     color: #48418e;
     font-family: "Source Sans Pro", sans-serif;
     font-weight: 700;
+    margin-bottom: 20px;
 
+}
+
+.card p {
+    margin-bottom: 40px;
 }
