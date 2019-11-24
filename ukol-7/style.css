@@ -163,11 +163,9 @@ a {
 
 .button {
 
-    top: 65%;
-    left: 10%;
     display: inline-block;
-    padding: 10px 20px;
-    font-size: 24px;
+    padding: 15px 25px;
+    font-size: 1rem;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
@@ -195,11 +193,9 @@ a {
 
 .button2 {
     transition: background-color 0.3s ease;
-    top: 65%;
-    left: 35%;
     display: inline-block;
-    padding: 10px 20px;
-    font-size: 24px;
+    padding: 15px 25px;
+    font-size: 1rem;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
@@ -239,6 +235,7 @@ a {
     align-items: center;
     justify-content: space-around;
 
+
 }
 
 .card {
@@ -271,6 +268,7 @@ article {
     background-color: #48418e;
     text-align: center;
     font-size: 0.75rem;
+    padding: 10px;
 
 }
 
@@ -279,6 +277,8 @@ article {
     font-family: "Source Sans Pro", sans-serif;
     font-weight: 700;
     margin-bottom: 20px;
+    font-size: 1rem;
+
 
 }
 
@@ -290,6 +290,11 @@ article {
     display: none;
 
 
+
+}
+
+bnt-container {
+    display: flex;
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
@@ -319,7 +324,7 @@ article {
     }
 
     .header-main {
-
+        align-items: center;
         display: flex;
         justify-content: space-between;
         align-content: space-between;
@@ -350,8 +355,7 @@ article {
 
     .button {
 
-        top: 65%;
-        left: 10%;
+        margin-bottom: 20px;
         display: inline-block;
         padding: 10px 20px;
         font-size: 1rem;
@@ -370,8 +374,7 @@ article {
 
     .button2 {
         transition: background-color 0.3s ease;
-        top: 65%;
-        left: 35%;
+
         display: inline-block;
         padding: 10px 20px;
         font-size: 1rem;
@@ -388,7 +391,14 @@ article {
     }
 
 
+    .bnt-container {
+        flex: 0 0 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        flex-direction: column;
 
+    }
 
 
 
@@ -416,7 +426,7 @@ article {
     }
 
     .header-main {
-
+        align-items: center;
         display: flex;
         justify-content: space-between;
         align-content: space-between;
@@ -438,7 +448,7 @@ article {
     .main-title {
 
 
-        font-size: 2rem;
+        font-size: 3rem;
         margin: 2% 0;
         color: white;
         font-weight: 400;
@@ -456,11 +466,10 @@ article {
 
     .button {
 
-        top: 65%;
-        left: 10%;
-        display: inline-block;
+
+        margin-bottom: 10px;
         padding: 10px 20px;
-        font-size: 0.5rem;
+        font-size: 1rem;
         cursor: pointer;
         text-align: center;
         text-decoration: none;
@@ -476,11 +485,9 @@ article {
 
     .button2 {
         transition: background-color 0.3s ease;
-        top: 65%;
-        left: 35%;
-        display: inline-block;
+
         padding: 10px 20px;
-        font-size: 0.5rem;
+        font-size: 1rem;
         cursor: pointer;
         text-align: center;
         text-decoration: none;
@@ -493,6 +500,14 @@ article {
 
     }
 
+    .bnt-container {
+        flex: 0 0 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        flex-direction: column;
+
+    }
 
 
 }
