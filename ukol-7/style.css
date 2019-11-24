@@ -146,7 +146,7 @@ a {
 
 
     font-size: 4.25rem;
-    margin: 2% 0;
+    margin: 10px 0;
     color: white;
     font-weight: 400;
 }
@@ -155,7 +155,7 @@ a {
 
 
     font-size: 2rem;
-    margin: 6% 0;
+    margin: 25px 0;
     color: white;
     font-weight: 300;
 
@@ -318,8 +318,8 @@ bnt-container {
     }
 
     .menu img {
-        margin: 6%;
-        width: 20%;
+        margin: 10px;
+        width: 50px;
 
     }
 
@@ -331,14 +331,14 @@ bnt-container {
     }
 
     .phone {
-        width: 40%;
+        width: 150px;
     }
 
     .main-title {
 
 
         font-size: 3rem;
-        margin: 2% 0;
+        margin: 10px 0;
         color: white;
         font-weight: 400;
     }
@@ -347,7 +347,7 @@ bnt-container {
 
 
         font-size: 1.5rem;
-        margin: 6% 0;
+        margin: 25px 0;
         color: white;
         font-weight: 300;
 
@@ -391,6 +391,8 @@ bnt-container {
     }
 
 
+
+
     .bnt-container {
         flex: 0 0 100%;
         display: flex;
@@ -420,10 +422,15 @@ bnt-container {
     }
 
     .menu img {
-        margin: 6%;
-        width: 20%;
+        margin: 10px;
+        width: 50px;
+    }
+
+    .logo a:hover {
+        color: #c50d97;
 
     }
+
 
     .header-main {
         align-items: center;
@@ -449,7 +456,7 @@ bnt-container {
 
 
         font-size: 3rem;
-        margin: 2% 0;
+        margin: 10px 0;
         color: white;
         font-weight: 400;
     }
@@ -458,7 +465,7 @@ bnt-container {
 
 
         font-size: 1rem;
-        margin: 6% 0;
+        margin: 25px 0;
         color: white;
         font-weight: 300;
 
@@ -479,7 +486,7 @@ bnt-container {
         color: white;
         font-family: 'Source Sans Pro', sans-serif;
         font-weight: 300;
-        margin-right: 2%;
+
         transition: background-color 0.3s ease;
     }
 
