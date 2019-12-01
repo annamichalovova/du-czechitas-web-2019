@@ -1,0 +1,530 @@
+/* nejsme vcerejsi, pouzivame moderni box model */
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+/*
+ BARVY
+ sede pozadi      #e5e5e5
+ svetle fialova   #48418e
+ tmave fialova    #25133d
+
+ POUZITE PISMO
+ Source Sans Pro - rezy pisma light 300, regular 400 a bold 700
+ https://fonts.google.com/specimen/Roboto
+*/
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #e5e5e5;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.obal {
+    max-width: 960px;
+    /* obsah stránky je omezený do pruhu širokého 960px */
+    margin: 0 auto;
+    /* pruh je na stránce vycentrovaný */
+    background: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* ----- zde začni psát vlastní CSS ----- */
+
+ul,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+
+a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 0.75rem;
+    color: black;
+    text-decoration: none;
+
+
+}
+
+.items li {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: black;
+    text-decoration: none;
+
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 200px 200px;
+
+
+}
+
+.header-main {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+
+
+
+}
+
+.items {
+    list-style: none;
+    padding: 10px;
+}
+
+.items li {
+    display: inline-block;
+    padding: 0px 30px;
+
+}
+
+.items li a {
+    transition: color 0.3s ease;
+}
+
+.items li a:hover {
+    color: #48418e;
+
+}
+
+.logo a:hover {
+    color: #c50d97;
+
+}
+
+.logo {
+    padding: 10px 30px;
+
+}
+
+.logo a {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    color: #25133d;
+    font-size: 1rem;
+    transition: color 0.3s ease
+}
+
+.intro-section {
+    background-image: url(pozadi.jpg);
+    max-width: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2% 8% 10% 5%;
+
+}
+
+.phone {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+.main-title {
+
+
+    font-size: 4.25rem;
+    margin: 10px 0;
+    color: white;
+    font-weight: 400;
+}
+
+.second-title {
+
+
+    font-size: 2rem;
+    margin: 25px 0;
+    color: white;
+    font-weight: 300;
+
+}
+
+.button {
+
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    background-color: #48418e;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    margin-right: 2%;
+    transition: background-color 0.3s ease;
+}
+
+
+.button:hover {
+    background-color: #47418e00;
+
+}
+
+.button2:hover {
+    background-color: #48418e;
+
+
+}
+
+.button2 {
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    background-color: #47418e00;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+
+}
+
+
+
+
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+.boxes img {
+    max-width: 10%;
+
+}
+
+.cards {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+.card {
+    flex: 0 0 25%;
+    margin: 10px;
+    margin-top: 20px;
+
+
+}
+
+.card img {
+    max-width: 30%;
+    margin-top: 20px;
+
+}
+
+
+
+article {
+    text-align: center;
+    font-size: 0.75rem;
+
+
+}
+
+.text-footer {
+    color: #e5e5e5;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 300;
+    background-color: #48418e;
+    text-align: center;
+    font-size: 0.75rem;
+    padding: 10px;
+
+}
+
+.title-card {
+    color: #48418e;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 1rem;
+
+
+}
+
+.card p {
+    margin-bottom: 40px;
+}
+
+.menu {
+    display: none;
+
+
+
+}
+
+bnt-container {
+    display: flex;
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    nav .items {
+        display: none;
+    }
+
+    .cards {
+        flex: 0 0 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .menu {
+        display: flex;
+        justify-content: flex-end;
+
+    }
+
+    .menu img {
+        margin: 10px;
+        width: 50px;
+
+    }
+
+    .header-main {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        align-content: space-between;
+    }
+
+    .phone {
+        width: 40%;
+    }
+
+    .main-title {
+
+
+        font-size: 3rem;
+        margin: 10px 0;
+        color: white;
+        font-weight: 400;
+    }
+
+    .second-title {
+
+
+        font-size: 1.5rem;
+        margin: 25px 0;
+        color: white;
+        font-weight: 300;
+
+    }
+
+    .button {
+
+        margin-bottom: 20px;
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 1rem;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        background-color: #48418e;
+        border: 1px solid white;
+        border-radius: 10px;
+        color: white;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 300;
+        margin-right: 2%;
+        transition: background-color 0.3s ease;
+    }
+
+    .button2 {
+        transition: background-color 0.3s ease;
+
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 1rem;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        background-color: #47418e00;
+        border: 1px solid white;
+        border-radius: 10px;
+        color: white;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 300;
+
+    }
+
+
+
+
+    .bnt-container {
+        flex: 0 0 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        flex-direction: column;
+
+    }
+
+
+
+}
+
+@media (max-width: 576px) {
+
+
+    .card {
+        flex: 0 0 100%;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: flex-end;
+
+    }
+
+    .menu img {
+        margin: 10px;
+        width: 50px;
+    }
+
+    .logo a:hover {
+        color: #c50d97;
+
+    }
+
+
+    .header-main {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        align-content: space-between;
+    }
+
+    .phone {
+        display: none;
+    }
+
+    .cards {
+        flex: 0 0 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .main-title {
+
+
+        font-size: 3rem;
+        margin: 10px 0;
+        color: white;
+        font-weight: 400;
+    }
+
+    .second-title {
+
+
+        font-size: 1rem;
+        margin: 25px 0;
+        color: white;
+        font-weight: 300;
+
+    }
+
+    .button {
+
+
+        margin-bottom: 10px;
+        padding: 10px 20px;
+        font-size: 1rem;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        background-color: #48418e;
+        border: 1px solid white;
+        border-radius: 10px;
+        color: white;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 300;
+
+        transition: background-color 0.3s ease;
+    }
+
+    .button2 {
+        transition: background-color 0.3s ease;
+
+        padding: 10px 20px;
+        font-size: 1rem;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        background-color: #47418e00;
+        border: 1px solid white;
+        border-radius: 10px;
+        color: white;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 300;
+
+    }
+
+    .bnt-container {
+        flex: 0 0 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        flex-direction: column;
+
+    }
+
+    nav .items {
+        order: 3;
+        display: flex;
+        flex: 0 0 100%;
+
+    }
+}
+
+@media (min-width: 576px) {
+    .phone {
+        width: 40%;
+    }
+
+}
