@@ -297,10 +297,7 @@ bnt-container {
     display: flex;
 }
 
-@media (min-width: 576px) and (max-width: 768px) {
-    nav .items {
-        display: none;
-    }
+@media (max-width: 768px) {
 
     .cards {
         flex: 0 0 100%;
@@ -402,129 +399,30 @@ bnt-container {
 
     }
 
+    
 
-
-}
-
-@media (max-width: 576px) {
-
-
-    .card {
-        flex: 0 0 100%;
+    main-nav li {
+        display: block;
     }
 
-    .menu {
-        display: flex;
-        justify-content: flex-end;
-
+    main-nav .items {
+        display: block;
     }
-
-    .menu img {
-        margin: 10px;
-        width: 50px;
-    }
-
-    .logo a:hover {
-        color: #c50d97;
-
-    }
-
 
     .header-main {
-        align-items: center;
-        display: flex;
-        justify-content: space-between;
-        align-content: space-between;
+        flex-wrap: wrap;
     }
 
-    .phone {
+    #main-nav {
+        flex: 0 0 100%;
+        order: 3;
         display: none;
     }
 
-    .cards {
-        flex: 0 0 100%;
-        display: flex;
-        flex-wrap: nowrap;
-        align-items: center;
-        flex-direction: column;
-
+    #main-nav.js-open {
+        display: block;
     }
 
-    .main-title {
 
-
-        font-size: 3rem;
-        margin: 10px 0;
-        color: white;
-        font-weight: 400;
-    }
-
-    .second-title {
-
-
-        font-size: 1rem;
-        margin: 25px 0;
-        color: white;
-        font-weight: 300;
-
-    }
-
-    .button {
-
-
-        margin-bottom: 10px;
-        padding: 10px 20px;
-        font-size: 1rem;
-        cursor: pointer;
-        text-align: center;
-        text-decoration: none;
-        background-color: #48418e;
-        border: 1px solid white;
-        border-radius: 10px;
-        color: white;
-        font-family: 'Source Sans Pro', sans-serif;
-        font-weight: 300;
-
-        transition: background-color 0.3s ease;
-    }
-
-    .button2 {
-        transition: background-color 0.3s ease;
-
-        padding: 10px 20px;
-        font-size: 1rem;
-        cursor: pointer;
-        text-align: center;
-        text-decoration: none;
-        background-color: #47418e00;
-        border: 1px solid white;
-        border-radius: 10px;
-        color: white;
-        font-family: 'Source Sans Pro', sans-serif;
-        font-weight: 300;
-
-    }
-
-    .bnt-container {
-        flex: 0 0 100%;
-        display: flex;
-        flex-wrap: nowrap;
-        align-items: flex-start;
-        flex-direction: column;
-
-    }
-
-    nav .items {
-        order: 3;
-        display: flex;
-        flex: 0 0 100%;
-
-    }
-}
-
-@media (min-width: 576px) {
-    .phone {
-        width: 40%;
-    }
 
 }

@@ -17,7 +17,7 @@
 
             <div class="logo"><a href="#">SUPER APPKA</a>
             </div>
-            <nav>
+            <nav id="main-nav">
 
                 <ul class="items">
 
@@ -26,7 +26,7 @@
                     <li><a href="#">Zdarma ke stažení</a></li>
                 </ul>
             </nav>
-            <div class="menu"><img src="menu.png"> </div>
+            <div class="menu" id="hambutton" onmouseover="Funkce()"> <img src="menu.png"> </div>
         </header>
         <main>
             <section class="intro-section">
@@ -74,6 +74,20 @@
             <div class="text-footer"> ©2016, Web od A do Z</div>
         </footer>
 
+        <script>
+            function Funkce() {
+                let hambutton = document.getElementById("hambutton")
+                let navMain = document.getElementById("main-nav")
+                hambutton.addEventListener("click", function () {
+                    navMain.classList.toggle("js-open")
+                })
+                document.addEventListener('keydown', function (e) {
+                    if (e.keyCode == 27) {
+                        navMain.remove("js-open")
+                    }
+                })
+            }
+        </script>
 
 
 
