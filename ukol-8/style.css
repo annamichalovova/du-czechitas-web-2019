@@ -399,7 +399,7 @@ bnt-container {
 
     }
 
-    
+
 
     main-nav li {
         display: block;
@@ -417,6 +417,14 @@ bnt-container {
         flex: 0 0 100%;
         order: 3;
         display: none;
+    }
+
+    #main-nav li {
+        display: block;
+    }
+
+    #main-nav a {
+        display: block;
     }
 
     #main-nav.js-open {
